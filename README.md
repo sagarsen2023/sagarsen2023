@@ -48,6 +48,10 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=sagarsen2023&theme=tokyonight&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=sagarsen2023&theme=tokyonight&hide_border=true&count_private=true&layout=compact)
 
+![image](https://github.com/sagarsen2023/sagarsen2023/assets/129404979/13586443-67c0-4f53-ab13-be81df301ee4)
+
+
+
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=sagarsen2023&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)
 
