@@ -52,9 +52,9 @@
 ![](https://github-profile-trophy.vercel.app/?username=sagarsen2023&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)
 
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+![](https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical)
 
 ### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=sagarsen2023&limit=5&theme=dark&combine_all_yearly_contributions=true)
+![](https://github-contributor-stats.vercel.app/api?username=sagarsen2023&limit=5&theme=radical&hide_border=true&combine_all_yearly_contributions=true)
 
 </div>
