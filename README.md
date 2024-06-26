@@ -44,9 +44,9 @@
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 # 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=sagarsen2023&theme=tokyonight&hide_border=true&count_private=true&layout=compact) <br/>
 ![](https://github-readme-stats.vercel.app/api?username=sagarsen2023&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=sagarsen2023&theme=tokyonight&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=sagarsen2023&theme=tokyonight&hide_border=true&count_private=true&layout=compact)
 
 ![image](https://github.com/sagarsen2023/sagarsen2023/assets/129404979/13586443-67c0-4f53-ab13-be81df301ee4)
 
