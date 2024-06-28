@@ -48,7 +48,6 @@
 ![](https://github-readme-stats.vercel.app/api?username=sagarsen2023&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=sagarsen2023&theme=tokyonight&hide_border=true)<br/>
 
-![image](https://github.com/sagarsen2023/sagarsen2023/assets/129404979/13586443-67c0-4f53-ab13-be81df301ee4)
 
 
 
