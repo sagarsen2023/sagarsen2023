@@ -2,11 +2,11 @@
 
 <div align="center">
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/sagarsen.dev) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sagar-sen1067/) 
+
 
 [![Github](https://visitcount.itsvg.in/api?id=sagarsen2023&icon=0&color=0)](https://visitcount.itsvg.in)
+
+
 
 # 💻 Tech Stack:
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
@@ -58,5 +58,16 @@
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=sagarsen2023&limit=5&theme=radical&hide_border=true&combine_all_yearly_contributions=true)
+
+
+
+
+## 🌐 Contact Me:
+<a href="https://discord.gg/sagarsen.dev" target="_blank">
+  <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fdiscord.gg%2Fsagarsen.dev&subtitle=Sagar+Sen&size=square" alt="Sagar Sen">
+</a>
+<a href="https://www.linkedin.com/in/sagar-sen1067/" target="_blank">
+  <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fsagar-sen1067%2F&subtitle=@Sagar+Sen&size=square" alt="Sagar Sen">
+</a>
 
 </div>
