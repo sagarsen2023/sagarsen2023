@@ -1,4 +1,4 @@
-## Hi there 👋, I am Sagar Sen, currently in my third year of B.tech CSE at SURTECH. I enjoy creating full stack websites, applications with latest technologies..
+## Hi there 👋, I am Sagar Sen, currently working as a trainee software engineering at Broadifi Tech Pvt. Ltd. I enjoy creating full stack websites, applications with latest technologies..
 
 <div align="center">
 
