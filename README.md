@@ -1,11 +1,8 @@
-## Hi there 👋, I am Sagar Sen, currently working as a trainee software engineer at Broadifi Tech Pvt. Ltd. I enjoy creating full stack websites, applications with latest technologies..
-
 <div align="center">
 
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=50&duration=1000&pause=2500&color=F7F7F7&center=true&vCenter=true&width=1200&lines=Hi+there!;I+am+Sagar+Sen%2C+a+full+stack+developer.)](https://git.io/typing-svg)
 
 [![Github](https://visitcount.itsvg.in/api?id=sagarsen2023&icon=0&color=0)](https://visitcount.itsvg.in)
-
 
 
 # 💻 Tech Stack:
