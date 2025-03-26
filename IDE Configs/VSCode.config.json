@@ -1,0 +1,103 @@
+{
+  "sonarlint.disableTelemetry": true,
+  "sonarlint.focusOnNewCode": true,
+  "files.autoSave": "afterDelay",
+  "editor.mouseWheelZoom": true,
+  "terminal.integrated.mouseWheelZoom": true,
+  "editor.lineHeight": 2.4,
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.cursorStyleInactive": "underline",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "editor.accessibilitySupport": "off",
+  "git.enableSmartCommit": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "sonarlint.rules": {
+    "typescript:S6759": {
+      "level": "off"
+    },
+    "typescript:S6479": {
+      "level": "off"
+    },
+    "typescript:S3358": {
+      "level": "off"
+    },
+    "typescript:S3776": {
+      "level": "off"
+    }
+  },
+  "workbench.startupEditor": "none",
+  "explorer.confirmDelete": false,
+  "git.ignoreRebaseWarning": true,
+  "editor.fontWeight": "500",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+  ],
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontLigatures": true,
+  "editor.smoothScrolling": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "explorer.confirmDragAndDrop": false,
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.location": "top",
+  "githubPullRequests.pullBranch": "never",
+  "window.customTitleBarVisibility": "auto",
+  // The following setting is for sepatator of ":" for the Flate theme
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "punctuation.accessor",
+        "settings": {
+          "foreground": "#00f7ff"
+        }
+      },
+      {
+        "scope": "keyword.operator.type.annotation.tsx",
+        "settings": {
+          "foreground": "#ffe600"
+        }
+      }
+    ]
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.indentSize": "tabSize",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.settings.applyToAllProfiles": [],
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Vesper",
+  "terminal.integrated.fontSize": 19,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.dropIntoEditor.preferences": []
+}
