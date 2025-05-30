@@ -4,10 +4,6 @@
 ![](https://komarev.com/ghpvc/?username=sagarsen2023&style=for-the-badge)
 
 
-# Sagar Sen
-
-B.Tech 3rd year student working as a Front-end Developer at Broadifi Tech Pvt Ltd.
-
 ## 💻 Tech Stack:
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
