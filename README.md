@@ -1,11 +1,14 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=50&duration=1000&pause=2500&color=F7F7F7&center=true&vCenter=true&width=1200&lines=Hi+there!;I+am+Sagar+Sen%2C+a+front+end+developer.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=50&duration=1000&pause=2500&color=F7F7F7&center=true&vCenter=true&width=1200&lines=Hi+there!;I+am+Sagar+Sen%2C+a+full+stack+developer.)](https://git.io/typing-svg)
+![](https://komarev.com/ghpvc/?username=sagarsen2023&style=for-the-badge)
 
-[![Github](https://visitcount.itsvg.in/api?id=sagarsen2023&icon=0&color=0)](https://visitcount.itsvg.in)
 
+# Sagar Sen
 
-# 💻 Tech Stack:
+B.Tech 3rd year student working as a Front-end Developer at Broadifi Tech Pvt Ltd.
+
+## 💻 Tech Stack:
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
 
@@ -41,8 +44,30 @@
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) 
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-# 📊 GitHub Stats:
+## 📈 Experience
+
+**Position**: Front-end Developer  
+**Company**: Broadifi Tech Pvt Ltd  
+**Duration**: July 2024 - Present
+
+
+## 🎓 Education
+
+**Degree**: B.Tech in Computer Science Engineering  
+**Institution**: Dr. Sudhir Chandra Sur Institute of Technology & Sports Complex  
+**Expected Graduation**: July 2026
+
+
+## 🌐 Contact Me
+
+**Email**: [sagarsen.dev@gmail.com](mailto:sagarsen.dev@gmail.com)  
+**GitHub**: [github.com/sagarsen2023](https://github.com/sagarsen2023)  
+**LinkedIn**: [linkedin.com/in/sagar-sen1067](https://www.linkedin.com/in/sagar-sen1067/)  
+  
+
+## 📊 GitHub Stats
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=sagarsen2023&theme=tokyonight&hide_border=true&count_private=true&layout=compact) <br/>
+![](https://github-readme-stats.vercel.app/api?username=sagarsen2023&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=sagarsen2023&theme=tokyonight&hide_border=true)<br/>
 
 ## 🏆 GitHub Trophies
@@ -54,17 +79,5 @@
 ## 💹 GitHub Activity Graph
 [![Sagar's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sagarsen2023&theme=react&hide_border=true&bg_color=00000000)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-
-
-## 🌐 Contact Me:
-<a href="mailto:sagarsen.dev@gmail.com" target="_blank">
-  <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=sigmail&subtitle=sagarsen.dev@gmail.com&size=square" alt="Sagar Sen" style="margin: 10px;">
-</a>
-<a href="https://discord.gg/sagarsen.dev" target="_blank">
-  <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fdiscord.gg%2Fsagarsen.dev&subtitle=Sagar+Sen&size=square" alt="Sagar Sen" style="margin: 10px;">
-</a>
-<a href="https://www.linkedin.com/in/sagar-sen1067/" target="_blank">
-  <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fsagar-sen1067%2F&subtitle=@Sagar+Sen&size=square" alt="Sagar Sen" style="margin: 10px;">
-</a>
 
 </div>
