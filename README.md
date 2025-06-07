@@ -1,6 +1,7 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=50&duration=1000&pause=2500&color=F7F7F7&center=true&vCenter=true&width=1200&lines=Hi+there!;I+am+Sagar+Sen%2C+a+full+stack+developer.)](https://git.io/typing-svg)
+![Coding Animation](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&lines=Hi+there!;I+am+Sagar+Sen%2C+a+full+stack+developer.)
+
 ![](https://komarev.com/ghpvc/?username=sagarsen2023&style=for-the-badge)
 
 
