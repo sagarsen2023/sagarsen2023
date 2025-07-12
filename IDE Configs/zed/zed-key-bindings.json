@@ -1,21 +1,47 @@
-// Zed keymap
-//
-// For information on binding keys, see the Zed
-// documentation: https://zed.dev/docs/key-bindings
-//
-// To see the default key bindings run `zed: open default keymap`
-// from the command palette.
-[
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-`":"workspace::ToggleBottomDock"
+{
+  "agent": {
+    "dock": "left",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1"
+    },
+    "play_sound_when_agent_done": true
+  },
+  "edit_predictions": {
+    "mode": "eager",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
     }
   },
-  {
-    "context": "Editor",
-    "bindings": {
-      "alt-shift-f": "editor::Format" // Format the current file same as VSCode
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "terminal": {
+    "dock": "bottom",
+    "font_size": 18,
+    "line_height": "standard"
+  },
+  // Related to font
+  "ui_font_size": 16, // Edited
+  "buffer_font_size": 20, // Edited
+  "buffer_font_family": "Fira Code",
+  "buffer_line_height": {
+    // Custom Line Height
+    "custom": 2.2
+  },
+  "buffer_font_weight": 200,
+  // Theme
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Catppuccin Mocha"
+  },
+  // Additionals
+  "unnecessary_code_fade": 0.2,
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
     }
   }
-]
+}
