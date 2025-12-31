@@ -13,17 +13,9 @@
       "proxy": null,
       "proxy_no_verify": null
     },
-    "enabled_in_assistant": false
   },
   "features": {
     "edit_prediction_provider": "zed"
-  },
-  "assistant": {
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-3-7-sonnet"
-    },
-    "version": "2"
   },
   "terminal": {
     "dock": "bottom"
@@ -33,7 +25,7 @@
   "buffer_font_size": 21, // Edited
   "buffer_line_height": {
     // Custom Line Height
-    "custom": 2.4
+    "custom": 1.8
   },
   "buffer_font_weight": 200,
   // Theme
