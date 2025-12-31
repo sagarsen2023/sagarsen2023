@@ -9,13 +9,25 @@
   {
     "context": "Workspace",
     "bindings": {
-      "ctrl-`":"workspace::ToggleBottomDock"
-    }
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-`": "workspace::ToggleBottomDock",
+    },
   },
   {
     "context": "Editor",
     "bindings": {
-      "alt-shift-f": "editor::Format" // Format the current file same as VSCode
-    }
-  }
+      "alt-shift-f": "editor::Format",
+    },
+  },
 ]
