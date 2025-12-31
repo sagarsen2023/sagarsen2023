@@ -7,38 +7,39 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "edit_predictions": {
-    "mode": "eager",
-    "copilot": {
-      "proxy": null,
-      "proxy_no_verify": null
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-opus-4.5"
     },
-  },
-  "features": {
-    "edit_prediction_provider": "zed"
+    "model_parameters": []
   },
   "terminal": {
-    "dock": "bottom"
+    "font_size": 14.0,
+    "font_family": "Fira Code"
   },
-  // Related to font
-  "ui_font_size": 20, // Edited
-  "buffer_font_size": 21, // Edited
-  "buffer_line_height": {
-    // Custom Line Height
-    "custom": 1.8
+  "minimap": {
+    "thumb": "always"
   },
-  "buffer_font_weight": 200,
-  // Theme
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Vesper"
+  "scrollbar": {
+    "axes": {
+      "horizontal": false,
+      "vertical": false
+    }
   },
-  // Additionals
-  "unnecessary_code_fade": 0.2,
+  "cursor_blink": true,
   "autosave": {
     "after_delay": {
       "milliseconds": 1000
     }
+  },
+  "buffer_font_family": "SF Mono",
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 20.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Vesper"
   }
 }
