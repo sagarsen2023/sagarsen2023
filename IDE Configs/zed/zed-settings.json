@@ -1,17 +1,13 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "edit_predictions": {
+    "provider": "copilot",
+  },
+  "context_servers": {},
   "icon_theme": "Material Icon Theme",
   "agent": {
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-opus-4.5",
+      "model": "claude-sonnet-4.6",
     },
     "model_parameters": [],
   },
@@ -35,11 +31,11 @@
   },
   "base_keymap": "VSCode",
   "ui_font_size": 16,
-  "buffer_font_size": 20.0,
+  "buffer_font_size": 18.0,
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Vesper",
+    "dark": "Xcode High Contrast Darker",
   },
   "diagnostics": {
     "inline": {
@@ -48,7 +44,11 @@
   },
   "auto_install_extensions": {
     "html": true,
-    "vesper": true,
+    "comment": true,
+    "codebook": true,
+    "dockerfile": true,
+    "xcode-themes": true,
+    "docker-compose": true,
     "react-snippets-es7": true,
     "material-icon-theme": true,
   },
