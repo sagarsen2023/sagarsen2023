@@ -1,82 +1,75 @@
 {
-  "sonarlint.disableTelemetry": true,
-  "sonarlint.focusOnNewCode": true,
+  "workbench.iconTheme": "symbols",
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
   "files.autoSave": "afterDelay",
   "editor.mouseWheelZoom": true,
-  "terminal.integrated.mouseWheelZoom": true,
-  "editor.lineHeight": 2.4,
-  "editor.cursorBlinking": "expand",
-  "terminal.integrated.cursorStyleInactive": "underline",
+  "editor.formatOnPaste": true,
+  "editor.lineHeight": 1.8,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "git.autofetch": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "git.confirmSync": false,
-  "editor.accessibilitySupport": "off",
-  "git.enableSmartCommit": true,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.startupEditor": "none",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDelete": false,
-  "git.ignoreRebaseWarning": true,
-  "editor.fontWeight": "100",
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "explorer.confirmDragAndDrop": false,
+  "chat.tools.urls.autoApprove": {
+    "https://code.visualstudio.com": true,
+    "https://github.com/microsoft/vscode/wiki/*": true,
+    "https://contribution.usercontent.google.com": {
+      "approveRequest": false,
+      "approveResponse": true,
+    },
+    "https://lh3.googleusercontent.com/aida/ADBb0ug_wmAvsX9YjrG1pu4zZKrZyi_91VbplzWOXIsTNY0Bi_bdWZyNGlBJ09G9tS6R_dV0MYm_OlTb_luolu2L76UHj-986RipSBYrvq6bUOQG1aa06WS6CTiLNL7bwet52odD2GyIr_3W56jh8Zs_5pG-22CbtcJ9sl5o8tr8DoLpnOwdE18Fp1A6JVNUqs-9RNSx4A5CaGeOj_jYByp-aNScvSX44XSFsAJltBTZCoKE_UHcmWc8wfK8qw": {
+      "approveRequest": true,
+      "approveResponse": false,
+    },
+    "https://lh3.googleusercontent.com": {
+      "approveRequest": false,
+      "approveResponse": true,
+    },
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.fontLigatures": true,
-  "editor.smoothScrolling": true,
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false
-  },
-  "explorer.confirmDragAndDrop": false,
+  "workbench.navigationControl.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.browser.showInTitleBar": false,
   "window.commandCenter": false,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.startupEditor": "none",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
-  "githubPullRequests.pullBranch": "never",
-  "window.customTitleBarVisibility": "auto",
+  "yaml.schemas": {
+    "file:///Users/sagarsen/.vscode/extensions/continue.continue-1.2.22-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml",
+    ],
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "workbench.activityBar.compact": true,
+  "redhat.telemetry.enabled": false,
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "editor.indentSize": "tabSize",
-  "editor.fontFamily": "Fira Code",
-  "github.copilot.nextEditSuggestions.enabled": true,
-  "workbench.settings.applyToAllProfiles": [],
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.dropIntoEditor.preferences": [],
-  "terminal.integrated.fontLigatures.enabled": true,
-  "terminal.integrated.fontWeight": "100",
-  "editor.codeLensFontFamily": "Fira Code",
-  "markdown.preview.fontFamily": "monosp",
-  "terminal.integrated.fontFamily": "Fira Code",
-  "gitlens.blame.fontFamily": "-apple-system",
-  "errorLens.fontWeight": "800",
-  "editor.minimap.showSlider": "always",
-  "workbench.productIconTheme": "icons-carbon",
-  "sonarlint.rules": {
-    "typescript:S6759": {
-      "level": "off"
-    }
-  },
-  "terminal.integrated.fontSize": 19,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.activityBar.location": "bottom",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Vesper",
 }
