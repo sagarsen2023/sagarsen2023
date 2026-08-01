@@ -43,9 +43,9 @@
 
 ## 📈 Experience
 
-**Position**: Front-end Developer  
+**Position**: Full Stack Engineer  
 **Company**: Broadifi Tech Pvt Ltd  
-**Duration**: July 2024 - July 2026
+**Duration**: July 2024 - Present
 
 
 ## 🎓 Education
