@@ -45,15 +45,13 @@
 
 **Position**: Front-end Developer  
 **Company**: Broadifi Tech Pvt Ltd  
-**Duration**: July 2024 - Present
+**Duration**: July 2024 - July 2026
 
 
 ## 🎓 Education
 
 **Degree**: B.Tech in Computer Science Engineering  
 **Institution**: Dr. Sudhir Chandra Sur Institute of Technology & Sports Complex  
-**Expected Graduation**: July 2026
-
 
 ## 🌐 Contact Me
 
