@@ -34,16 +34,17 @@ I build web and mobile products end to end, from interfaces in React, Next.js an
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sagarsen2023/sagarsen2023/output/stats-dark.svg" />
-  <img alt="GitHub stats" src="https://raw.githubusercontent.com/sagarsen2023/sagarsen2023/output/stats-light.svg" width="49%" />
+  <img alt="GitHub stats" src="https://raw.githubusercontent.com/sagarsen2023/sagarsen2023/output/stats-light.svg" width="600" />
 </picture>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sagarsen2023/sagarsen2023/output/langs-dark.svg" />
-  <img alt="Top languages" src="https://raw.githubusercontent.com/sagarsen2023/sagarsen2023/output/langs-light.svg" width="49%" />
+  <img alt="Top languages" src="https://raw.githubusercontent.com/sagarsen2023/sagarsen2023/output/langs-light.svg" width="600" />
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sagarsen2023/sagarsen2023/output/streak-dark.svg" />
-  <img alt="Contribution streak" src="https://raw.githubusercontent.com/sagarsen2023/sagarsen2023/output/streak-light.svg" width="60%" />
+  <img alt="Contribution streak" src="https://raw.githubusercontent.com/sagarsen2023/sagarsen2023/output/streak-light.svg" width="600" />
 </picture>
 
 ### Trophies

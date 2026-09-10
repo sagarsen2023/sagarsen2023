@@ -87,14 +87,14 @@ jobs:
         uses: DenverCoder1/github-readme-streak-stats@v1.7.0
         with:
           path: dist/streak-light.svg
-          options: user=${{ env.USERNAME }}&border_radius=10&background=00000000&border=d1d9e0&stroke=d1d9e0&ring=1f2328&fire=1f2328&currStreakNum=1f2328&sideNums=1f2328&currStreakLabel=1f2328&sideLabels=59636e&dates=59636e
+          options: user=${{ env.USERNAME }}&card_width=467&border_radius=10&background=00000000&border=d1d9e0&stroke=d1d9e0&ring=1f2328&fire=1f2328&currStreakNum=1f2328&sideNums=1f2328&currStreakLabel=1f2328&sideLabels=59636e&dates=59636e
 
       - name: Streak card (dark)
         continue-on-error: true
         uses: DenverCoder1/github-readme-streak-stats@v1.7.0
         with:
           path: dist/streak-dark.svg
-          options: user=${{ env.USERNAME }}&border_radius=10&background=00000000&border=3d444d&stroke=3d444d&ring=f0f6fc&fire=f0f6fc&currStreakNum=f0f6fc&sideNums=f0f6fc&currStreakLabel=f0f6fc&sideLabels=9198a1&dates=9198a1
+          options: user=${{ env.USERNAME }}&card_width=467&border_radius=10&background=00000000&border=3d444d&stroke=3d444d&ring=f0f6fc&fire=f0f6fc&currStreakNum=f0f6fc&sideNums=f0f6fc&currStreakLabel=f0f6fc&sideLabels=9198a1&dates=9198a1
 
       # These services have no GitHub Action, so their images are cached here instead of hot-linked.
       - name: Trophies and quote
@@ -113,6 +113,10 @@ jobs:
           quote="https://quotes-github-readme.vercel.app/api?type=horizontal"
           fetch_card "$quote&theme=light" dist/quote-light.svg
           fetch_card "$quote&theme=dark" dist/quote-dark.svg
+
+      # Stats and streak cards are 467x195; pad the languages card so every card in the grid lines up.
+      - name: Match card heights
+        run: node .github/scripts/fit-height.mjs 195 dist/langs-*.svg
 
       - name: Convert colored cards to grayscale
         run: node .github/scripts/monochrome.mjs dist/langs-*.svg dist/trophies-*.svg dist/quote-*.svg
