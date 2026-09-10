@@ -20,7 +20,7 @@ I build web and mobile products end to end, from interfaces in React, Next.js an
 |           | Role                                 | Where                                                           | When               |
 | :-------- | :----------------------------------- | :-------------------------------------------------------------- | :----------------- |
 | Work      | Full Stack Engineer                  | Broadifi Tech Pvt Ltd                                           | Jul 2024 — Present |
-| Education | B.Tech, Computer Science Engineering | Dr. Sudhir Chandra Sur Institute of Technology & Sports Complex | —                  |
+| Education | B.Tech, Computer Science Engineering | Dr. Sudhir Chandra Sur Institute of Technology & Sports Complex | Jul 2022 - Jul 2026 |
 
 ### Stack
 
