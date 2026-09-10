@@ -74,5 +74,11 @@
 ## 💹 GitHub Activity Graph
 [![Sagar's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sagarsen2023&theme=react&hide_border=true&bg_color=00000000)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
+## 🐍 Contribution Snake
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sagarsen2023/sagarsen2023/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sagarsen2023/sagarsen2023/output/github-snake.svg" />
+  <img alt="Snake eating my GitHub contribution grid" src="https://raw.githubusercontent.com/sagarsen2023/sagarsen2023/output/github-snake.svg" />
+</picture>
 
 </div>
