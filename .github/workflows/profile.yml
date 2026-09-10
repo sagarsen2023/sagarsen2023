@@ -1,0 +1,126 @@
+name: Profile Assets
+
+# Builds every card shown in README.md and publishes them to the `output` branch.
+# Palette: GitHub's own neutrals, light = #1f2328 / #59636e / #d1d9e0, dark = #f0f6fc / #9198a1 / #3d444d.
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+env:
+  USERNAME: ${{ github.repository_owner }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v7
+
+      # Start from the last published cards, so a source that is down never leaves a broken image.
+      - name: Restore previously published cards
+        run: |
+          mkdir -p dist
+          if git fetch --depth=1 origin output; then
+            git archive FETCH_HEAD | tar -x -C dist
+          fi
+
+      - name: Snake
+        continue-on-error: true
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ env.USERNAME }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#1f2328&color_dots=#eff2f5,#d1d9e0,#9198a1,#59636e,#1f2328
+            dist/snake-dark.svg?color_snake=#f0f6fc&color_dots=#151b23,#3d444d,#656c76,#9198a1,#f0f6fc
+
+      - name: Stats card (light)
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          path: dist/stats-light.svg
+          fail_on_error: "true"
+          options: username=${{ env.USERNAME }}&show_icons=true&include_all_commits=true&rank_icon=github&border_radius=10&bg_color=00000000&border_color=d1d9e0&title_color=1f2328&text_color=59636e&icon_color=1f2328&ring_color=1f2328
+
+      - name: Stats card (dark)
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          path: dist/stats-dark.svg
+          fail_on_error: "true"
+          options: username=${{ env.USERNAME }}&show_icons=true&include_all_commits=true&rank_icon=github&border_radius=10&bg_color=00000000&border_color=3d444d&title_color=f0f6fc&text_color=9198a1&icon_color=f0f6fc&ring_color=f0f6fc
+
+      - name: Top languages card (light)
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          path: dist/langs-light.svg
+          fail_on_error: "true"
+          options: username=${{ env.USERNAME }}&layout=compact&langs_count=6&card_width=467&border_radius=10&bg_color=00000000&border_color=d1d9e0&title_color=1f2328&text_color=59636e
+
+      - name: Top languages card (dark)
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          path: dist/langs-dark.svg
+          fail_on_error: "true"
+          options: username=${{ env.USERNAME }}&layout=compact&langs_count=6&card_width=467&border_radius=10&bg_color=00000000&border_color=3d444d&title_color=f0f6fc&text_color=9198a1
+
+      - name: Streak card (light)
+        continue-on-error: true
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        with:
+          path: dist/streak-light.svg
+          options: user=${{ env.USERNAME }}&border_radius=10&background=00000000&border=d1d9e0&stroke=d1d9e0&ring=1f2328&fire=1f2328&currStreakNum=1f2328&sideNums=1f2328&currStreakLabel=1f2328&sideLabels=59636e&dates=59636e
+
+      - name: Streak card (dark)
+        continue-on-error: true
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        with:
+          path: dist/streak-dark.svg
+          options: user=${{ env.USERNAME }}&border_radius=10&background=00000000&border=3d444d&stroke=3d444d&ring=f0f6fc&fire=f0f6fc&currStreakNum=f0f6fc&sideNums=f0f6fc&currStreakLabel=f0f6fc&sideLabels=9198a1&dates=9198a1
+
+      # These services have no GitHub Action, so their images are cached here instead of hot-linked.
+      - name: Trophies and quote
+        run: |
+          fetch_card() {
+            if curl -fsSL --retry 2 --max-time 60 "$1" -o "$2.tmp" && grep -q '<svg' "$2.tmp"; then
+              mv "$2.tmp" "$2"
+            else
+              rm -f "$2.tmp"
+              echo "::warning::Could not refresh $2, keeping the previous version"
+            fi
+          }
+          trophies="https://github-trophies.vercel.app/?username=$USERNAME&no-frame=true&no-bg=true&margin-w=6&margin-h=6"
+          fetch_card "$trophies&theme=flat" dist/trophies-light.svg
+          fetch_card "$trophies&theme=darkhub" dist/trophies-dark.svg
+          quote="https://quotes-github-readme.vercel.app/api?type=horizontal"
+          fetch_card "$quote&theme=light" dist/quote-light.svg
+          fetch_card "$quote&theme=dark" dist/quote-dark.svg
+
+      - name: Convert colored cards to grayscale
+        run: node .github/scripts/monochrome.mjs dist/langs-*.svg dist/trophies-*.svg dist/quote-*.svg
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
